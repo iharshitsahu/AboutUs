@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-image: url('bg2.jpg');
+
+        }
+
+        header {
+            
+            color: #006F6F;
+            text-align: center;
+            padding: 1em;
+            font-size: 2.5rem;
+        }
+
+        header >div{
+            font-size: 1.5rem;
+            color: black;
+            
+        }
+
+        .head{
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .horizontal-sections {
+            display: flex;
+            justify-content:space-around;
+            padding: 2em 2rem;
+            
+        }
+
+        .section {
+            
+            flex: 1;
+            padding: 0 5%;
+            background-color: #f4f4f4;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 0 2rem;
+            
+        }
+
+        @media screen and (max-width: 768px) {
+            .horizontal-sections {
+                flex-direction: column;
+            }
+
+            .section {
+                margin-bottom: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><b>About Us</b></h1>
+            <div>Welcome to Learning Beyond Your Horizon CBSE, founded in 2022 by Kanishk Gupta and Aditya Kumar Srivastava</div>
+            <div>With expertise in consulting, education, and technology, we aim to revolutionize online learning.</div>
+    </header>
+
+    <div class="container">
+        <div class="head"><b>Fostering a playful & engaging learning</b></div>
+        <div class="horizontal-sections">
+            <div class="section" style="background-color: #006F6F; color: white;" >
+                <h2>Online Courses:</h2>
+                <p>Interactive learning platform with a wide range of courses.</p>
+            </div>
+            <div class="section">
+                <h2>Live Sessions:</h2>
+                <p>Real-time interaction with expert instructors and Q&A sessions.</p>
+            </div>
+            <div class="section">
+                <h2>Cutting-Edge Technology:</h2>
+                <p>Stay updated with the latest tech through innovative learning methods.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
